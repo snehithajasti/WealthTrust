@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+@layer base {
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+@layer utilities{
+   .custom-scrollbar::-webkit-scrollbar{
+    height: 6px;
+    width: 6px;
+   }
+
+   .custom-scrollbar::-webkit-scrollbar-transparent{
+    background: transparent;
+   }
+
+   .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #94a3b8;
+    border-radius: 999px;
+  }
+
+  .custom-scrollbar {
+    scrollbar-width: thin;    
+    scrollbar-color: #94a3b8 transparent;
+  }
+}
