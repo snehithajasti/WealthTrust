@@ -39,8 +39,8 @@ const Featuresdisplay = () => {
                         <button onClick={()=>isProfileComplete() ? navigate('/goalsandbudgets') : navigate('/userinfo')} className='bg-slate-950 text-slate-50 rounded-xl p-2 w-25 ml-auto mr-auto'>Try Now</button>
                     </div>
                     <div className='flex flex-col justify-center bg-slate-50 h-70 w-90 rounded-xl hover:-translate-y-3 transition duration-300 ease-in-out'>
-                        <h3 className='text-xl font-semibold text-center text-slate-950 mt-12'>Account Balance Overview</h3>
-                        <p className='text-sm text-center text-slate-950 mt-3 mb-6'>View all your account balances in one secure place for quick,real-time clarity</p>
+                        <h3 className='text-xl font-semibold text-center text-slate-950 mt-12'>Live Stock Prices</h3>
+                        <p className='text-sm text-center text-slate-950 mt-3 mb-6'>Track real-time stock prices to make faster, informed decisions.</p>
                         <button onClick={()=>isProfileComplete() ? navigate('/investments') : navigate('/userinfo')} className='bg-slate-950 text-slate-50 rounded-xl p-2 w-25 ml-auto mr-auto'>Try Now</button>
                     </div>
                     <div className='flex flex-col justify-center bg-slate-50 h-70 w-90 rounded-xl hover:-translate-y-3 transition duration-300 ease-in-out'>
